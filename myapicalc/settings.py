@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'calculator',
-    'crispy_forms'
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -126,6 +126,7 @@ STATIC_ROOT=os.path.join(BASE_DIR,'static')
 
 
 #DJANGO REGISTRATION_REDUX SETTINGS
+REGISTRATION_OPEN = True
 ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, use a different value.
 REGISTRATION_AUTO_LOGIN = True
 SITE_ID=1
